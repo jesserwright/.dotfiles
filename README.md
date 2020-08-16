@@ -11,3 +11,8 @@ L_CMD <-> L_Alt
 
 Key Remapping Guide:
 https://codingpackets.com/blog/vortex-race3-key-remap/
+
+How to remap:
+
+1. Press the target key to be re-mapped.
+2. Press the key sequence to map to the target key
