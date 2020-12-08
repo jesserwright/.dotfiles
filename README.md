@@ -16,3 +16,5 @@ How to remap:
 
 1. Press the target key to be re-mapped.
 2. Press the key sequence to map to the target key
+
+Prompt: https://starship.rs/
