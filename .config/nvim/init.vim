@@ -7,7 +7,7 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 "Rust
-Plug 'rust-lang/rust.vim'	
+"Plug 'rust-lang/rust.vim'	
 
 "Color Theme
 Plug 'mhartington/oceanic-next'
@@ -40,3 +40,10 @@ set number
 " Theme - oceanic
 colorscheme OceanicNext
 
+" Spell-check Markdown files and Git Commit Messages
+autocmd FileType markdown setlocal spell
+autocmd FileType gitcommit setlocal spell
+
+" Enable dictionary auto-completion in Markdown files and Git Commit Messages
+autocmd FileType markdown setlocal complete+=kspell
+autocmd FileType gitcommit setlocal complete+=kspell

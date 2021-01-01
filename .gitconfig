@@ -1,5 +1,16 @@
 [alias]
-	st = status
+	st = status -s
+	co = checkout
 [user]
 	name = jesserwight
 	email = jessewright01@gmail.com
+[core]
+    editor = code --wait
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE

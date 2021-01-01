@@ -19,7 +19,7 @@ window:
   # If both are `0`, this setting is ignored.
   dimensions:
     columns: 80
-    lines: 80
+    lines: 50
 
   # Window position (changes require restart)
   #
@@ -94,13 +94,13 @@ window:
 # Font configuration
 font:
   normal:
-    family: SF Mono
+    family: FiraCode Nerd Font Mono
     style: Regular
   bold:
-    family: SF Mono
+    family: FiraCode Nerd Font Mono
     style: Bold
   italic:
-    family: SF Mono
+    family: FiraCode Nerd Font Mono
     style: Italic
   size: 16.0
 
