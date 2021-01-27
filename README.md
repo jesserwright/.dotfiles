@@ -60,7 +60,7 @@ Green accent
 - exa (modern replacement for ls) [from brew or cargo]
 
 ## Fonts
-- Fira Code Mono - for starship propt. https://github.com/tonsky/FiraCode/tree/master/distr/ttf
+- Fira Code Mono - for starship propt. https://github.com/tonsky/FiraCode/
 
 ## VS Code
 - Settings sync file
