@@ -18,3 +18,9 @@ How to remap:
 2. Press the key sequence to map to the target key
 
 Prompt: https://starship.rs/
+
+# Dock Autohide Delay (set delay to zero)
+defaults write com.apple.dock autohide-delay -float 0 && killall Dock
+
+# Dock Autohide Animation Time (set animation to half the speed)
+defaults write com.apple.dock autohide-time-modifier -float 0.25 && killall Dock
