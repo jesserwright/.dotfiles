@@ -5,8 +5,7 @@ My *nix dot files. Uses a git bare repository, which is much cleaner than sym li
 - Caps Lock <-> ESC
 - L_CMD <-> L_Alt
 
-Key Remapping Guide:
-https://codingpackets.com/blog/vortex-race3-key-remap/
+Key Remapping Guide: https://codingpackets.com/blog/vortex-race3-key-remap/
 
 How to remap:
 1. Press the target key to be re-mapped.
@@ -15,13 +14,13 @@ How to remap:
 # macOS settings
 
 ## Dock
-Autohide Delay (set delay to zero): `defaults write com.apple.dock autohide-delay -float 0 && killall Dock`
-Autohide Animation Time (set animation to half the speed): `defaults write com.apple.dock autohide-time-modifier -float 0.25 && killall Dock`
-Dock position - left. 
-UNCHECK "animate opening applications"
-CHECK "automatically show and hide the dock"
-UNCHECK "animate opening applications"
-"Minimize windows using: scale effect"
+- Autohide Delay (set delay to zero): `defaults write com.apple.dock autohide-delay -float 0 && killall Dock`
+- Autohide Animation Time (set animation to half the speed): `defaults write com.apple.dock autohide-time-modifier -float 0.25 && killall Dock`
+- Dock position - left. 
+- UNCHECK "animate opening applications"
+- CHECK "automatically show and hide the dock"
+- UNCHECK "animate opening applications"
+- "Minimize windows using: scale effect"
 
 ## Accessability Settings > Display
 - Reduce motion
