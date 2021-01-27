@@ -17,44 +17,47 @@ How to remap:
 1. Press the target key to be re-mapped.
 2. Press the key sequence to map to the target key
 
-Prompt: https://starship.rs/
-
 # macOS settings
 
-# Dock Autohide Delay (set delay to zero)
+## Dock Autohide Delay (set delay to zero)
 `defaults write com.apple.dock autohide-delay -float 0 && killall Dock`
 
-# Dock Autohide Animation Time (set animation to half the speed)
+## Dock Autohide Animation Time (set animation to half the speed)
 `defaults write com.apple.dock autohide-time-modifier -float 0.25 && killall Dock`
 
-# Accessability Settings > Display
+## Accessability Settings > Display
 - Reduce motion
 - Increase contrast
 - Reduce transparency
 
-# Settings -> General
+## Settings -> General
 Green accent
 
-# Key repeat speed + key repeat delay = MAX for both
+## Key repeat speed + key repeat delay = MAX for both
 
-# Safari Settings
+## Safari Settings
 View -> Show status bar (so links show full address on hover)
 Autofill -> UNCHECK "usernames and passwords". Prevents asking to save passwords.
 
-# Apps (from app store)
-Email - Mimestream
+## Apps (from app store)
 Bitwarden extension
 Adguard extension
 
-# Brew - package manager
+## Apps (from internet)
+Databases - Tables plus
+Email - Mimestream
+VS Code
+Firefox
+
+## CLI packages (brew, curl, etc)
 node (js)
 alacritty
 starship (shell)
+rustup (rustc, cargo, rustfmt, etc)
 
-# Git - from xcode command line tools
-# Git - clone repos from git hub
+## Git - from xcode command line tools
+## Git - clone repos from git hub
 
-# VS Code
+## VS Code
 - Settings sync
-
 
