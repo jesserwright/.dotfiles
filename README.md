@@ -19,8 +19,42 @@ How to remap:
 
 Prompt: https://starship.rs/
 
+# macOS settings
+
 # Dock Autohide Delay (set delay to zero)
-defaults write com.apple.dock autohide-delay -float 0 && killall Dock
+`defaults write com.apple.dock autohide-delay -float 0 && killall Dock`
 
 # Dock Autohide Animation Time (set animation to half the speed)
-defaults write com.apple.dock autohide-time-modifier -float 0.25 && killall Dock
+`defaults write com.apple.dock autohide-time-modifier -float 0.25 && killall Dock`
+
+# Accessability Settings > Display
+- Reduce motion
+- Increase contrast
+- Reduce transparency
+
+# Settings -> General
+Green accent
+
+# Key repeat speed + key repeat delay = MAX for both
+
+# Safari Settings
+View -> Show status bar (so links show full address on hover)
+Autofill -> UNCHECK "usernames and passwords". Prevents asking to save passwords.
+
+# Apps (from app store)
+Email - Mimestream
+Bitwarden extension
+Adguard extension
+
+# Brew - package manager
+node (js)
+alacritty
+starship (shell)
+
+# Git - from xcode command line tools
+# Git - clone repos from git hub
+
+# VS Code
+- Settings sync
+
+
