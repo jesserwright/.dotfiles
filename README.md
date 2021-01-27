@@ -19,11 +19,16 @@ How to remap:
 
 # macOS settings
 
-## Dock Autohide Delay (set delay to zero)
+## Dock
+### Dock Autohide Delay (set delay to zero)
 `defaults write com.apple.dock autohide-delay -float 0 && killall Dock`
-
-## Dock Autohide Animation Time (set animation to half the speed)
+### Dock Autohide Animation Time (set animation to half the speed)
 `defaults write com.apple.dock autohide-time-modifier -float 0.25 && killall Dock`
+Dock position - left. 
+UNCHECK "animate opening applications"
+CHECK "automatically show and hide the dock"
+UNCHECK "animate opening applications"
+Minimize windows using: scale effect
 
 ## Accessability Settings > Display
 - Reduce motion
@@ -60,4 +65,3 @@ rustup (rustc, cargo, rustfmt, etc)
 
 ## VS Code
 - Settings sync
-
