@@ -37,6 +37,7 @@ Green accent
 ## Safari Settings
 - View -> Show status bar (so links show full address on hover)
 - Autofill -> UNCHECK "usernames and passwords". Prevents asking to save passwords.
+- Advanced -> CHECK "Show Develop menu in menu bar" (enables "inspect" in rightclick menu on a web page")
 
 # Software
 
