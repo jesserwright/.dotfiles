@@ -59,6 +59,9 @@ Green accent
 - rustup (rustc, cargo, rustfmt, etc) [curl / script]
 - exa (modern replacement for ls) [from brew or cargo]
 
+## Fonts
+- Fira Code Mono - for starship propt. https://github.com/tonsky/FiraCode/tree/master/distr/ttf
+
 ## VS Code
 - Settings sync file
 - VSCode Vim: `defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false`
