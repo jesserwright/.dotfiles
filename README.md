@@ -59,6 +59,7 @@ node [from brew]
 alacritty [from brew]
 starship (shell) [from brew]
 rustup (rustc, cargo, rustfmt, etc) [curl / script]
+exa (modern replacement for ls) [from brew or cargo]
 
 ## VS Code
 - Settings sync file
