@@ -1,9 +1,9 @@
-# dotfiles
+# Dotfiles
 My *nix dot files. Uses a git bare repository, which is much cleaner than sym linking. See: https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html
 
 ## Keyboard Mapping (Vortex Race 3 Keyboard)
-Caps Lock <-> Esc
-L_CMD <-> L_Alt
+- Caps Lock <-> ESC
+- L_CMD <-> L_Alt
 
 Key Remapping Guide:
 https://codingpackets.com/blog/vortex-race3-key-remap/
@@ -36,30 +36,29 @@ Green accent
 - Key repeat speed + key repeat delay. Max for both.
 
 ## Safari Settings
-View -> Show status bar (so links show full address on hover)
-Autofill -> UNCHECK "usernames and passwords". Prevents asking to save passwords.
+- View -> Show status bar (so links show full address on hover)
+- Autofill -> UNCHECK "usernames and passwords". Prevents asking to save passwords.
 
 # Software
 
 ## From app store
-Bitwarden extension
-Adguard extension
-Magnet
+- Bitwarden extension
+- Adguard extension
+- Magnet
 
 ## From internet
-Tables plus
-Mimestream
-VS Code
-Docker
-Logitech options
+- Tables plus
+- Mimestream
+- VS Code
+- Docker
 
 ## CLI / Packages
-Brew
-node [from brew]
-alacritty [from brew]
-starship (shell) [from brew]
-rustup (rustc, cargo, rustfmt, etc) [curl / script]
-exa (modern replacement for ls) [from brew or cargo]
+- Brew
+- node [from brew]
+- alacritty [from brew]
+- starship (shell) [from brew]
+- rustup (rustc, cargo, rustfmt, etc) [curl / script]
+- exa (modern replacement for ls) [from brew or cargo]
 
 ## VS Code
 - Settings sync file
