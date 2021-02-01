@@ -33,6 +33,7 @@ Green accent
 ## Misc macOS
 - Hide extra folders
 - Key repeat speed + key repeat delay. Max for both.
+- Trackpad -> "Tap to click"
 
 ## Safari Settings
 - View -> Show status bar (so links show full address on hover)
