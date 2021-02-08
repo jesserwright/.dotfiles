@@ -34,6 +34,7 @@ Green accent
 - Hide extra folders
 - Key repeat speed + key repeat delay. Max for both.
 - Trackpad -> "Tap to click"
+- Finder -> Preferences -> Advanced -> "Show all filename extensions"
 
 ## Safari Settings
 - View -> Show status bar (so links show full address on hover)
